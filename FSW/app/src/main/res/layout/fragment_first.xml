@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.example.user.mobilesw.FirstFragment">
+
+<TextView
+        android:id="@+id/textView_stage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=" stage1\n Mycar가 앞뒤로 움직이면서 전방에 다른 차가 등장하면 안전거리를 유지하며 뒤로 움직인다. 전방(0번,1번 슬롯 중 하나 선택. 이하 0,1 표시)에 초음파 센서의 장착이 필요하다.
+        \n\n stage2\n 이 단계에서 Mycar는 안전거리 유지와 신호등 판단을 할 수 있다. 사거리와 정지선, 횡단보도가 등장하며 정지선에 맞게 멈출 수 있다. 정지 시점을 놓친 경우 다른 차량과 충돌하는 사고가 발생한다. 전방(0,1)에 초음파 센서와 카메라의 장착이 필요하다.\n\n stage3\n 이 단계에서는 정체된 차선을 벗어나기 위해서 차선변경을 시도한다. 전방(0,1)에 초음파 센서, 후방(3번,4번 슬롯 중 하나 선택)에는 카메라의 장착이 필요하다.\n\n stage4\n 잘 달리던 Mycar의 측면에 다른 차선에서 달리던 자동차가 와서 충돌한다.
+        \n 전방에 카메라와 초음파 센서 그리고 충격감지 센서는 남은 슬롯 중 한 곳에 장착한다.\n\n stage5\n 마지막 stage이다.\nMycar는 안전거리 유지, 신호등에서 앞차와 간격을 맞추어 정차하며,
+이동 중에 자유로운 차선 변경이 가능하고, 옆 차선으로 끼어들기에 대한 대응을 시도한다. 라이더를 통해서 360도 모든 방향의 장애물과 거리를 탐측한다.
+전방(0,1)에 카메라, 천장(2번 슬롯) 라이더 센서만 사용한다."
+        android:textSize="15sp"
+        android:layout_marginRight="15dp"/>
+
+
+
+
+</FrameLayout>
